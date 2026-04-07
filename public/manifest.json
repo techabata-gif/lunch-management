@@ -1,0 +1,22 @@
+{
+  "name": "Lunch Order Abata",
+  "short_name": "LunchOrder",
+  "description": "Aplikasi Pemesanan Makan Siang LPI Abata Leaderss",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/3ItDqk6.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.imgur.com/3ItDqk6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
