@@ -1,7 +1,7 @@
 {
-  "name": "LMA Abata Leaderss",
-  "short_name": "Lunch Abata",
-  "description": "Aplikasi Pemesanan Makan Siang LPI Abata Leaderss",
+  "name": "LMA Abata",
+  "short_name": "LMA Abata",
+  "description": "Lunch Management Application LPI Abata Leaderss",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

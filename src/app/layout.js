@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: 'Lunch Order - Abata Leaderss',
-  description: 'Management LPI Abata Leaderss',
+  title: 'LMA Abata',
+  description: 'Lunch Management Application',
   manifest: '/manifest.json',
   icons: {
     icon: '/favicon.png', // Logo kecil di tab browser
@@ -11,7 +11,7 @@ export const metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Lunch Order',
+    title: 'LMA Abata',
   },
   formatDetection: {
     telephone: false,
