@@ -262,8 +262,8 @@ export default function Home() {
             <div className="d-flex align-items-center">
               <img src="https://i.imgur.com/3ItDqk6.png" height="36" alt="Logo" className="me-2" />
               <div>
-                <h1 className="m-0 text-dark fw-bold" style={{ fontSize: '18px' }}>Lunch Order</h1>
-                <div className="text-muted" style={{ fontSize: '12px' }}>Management LPI Abata Leaderss</div>
+                <h1 className="m-0 text-dark fw-bold" style={{ fontSize: '18px' }}>LMA Abata</h1>
+                <div className="text-muted" style={{ fontSize: '12px' }}>Lunch Meeting Application LPI Abata Leaderss</div>
               </div>
             </div>
             <Link href="/login" className="btn btn-outline-primary rounded-pill px-3 fw-bold mt-1" style={{ fontSize: '13px' }}>Admin</Link>
