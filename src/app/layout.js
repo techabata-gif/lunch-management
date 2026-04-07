@@ -4,6 +4,10 @@ export const metadata = {
   title: 'Lunch Order - Abata Leaderss',
   description: 'Management LPI Abata Leaderss',
   manifest: '/manifest.json',
+  icons: {
+    icon: '/favicon.png', // Logo kecil di tab browser
+    apple: '/icon.png',   // Logo yang muncul saat di-install di iPhone/iPad
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
