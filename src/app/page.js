@@ -296,9 +296,9 @@ export default function Home() {
               <div>
                 <h5 className="m-0 fw-bold text-dark">Daftar Peserta & Pesanan</h5>
                 <div className="fw-bold mt-2" style={{ fontSize: '13px' }}>
-                  <span className="text-secondary bg-light px-2 py-1 rounded-pill me-2 border">{totalPeserta} Peserta</span>
-                  <span className="text-success bg-success bg-opacity-10 border border-success border-opacity-25 px-2 py-1 rounded-pill me-2">{hadirPeserta} Hadir</span>
-                  <span className="text-danger bg-danger bg-opacity-10 border border-danger border-opacity-25 px-2 py-1 rounded-pill">{absents.length} Absen</span>
+                  <span className="text-secondary bg-light px-2 py-1 rounded-pill me-2 border">Peserta: {totalPeserta}</span>
+                  <span className="text-success bg-success bg-opacity-10 border border-success border-opacity-25 px-2 py-1 rounded-pill me-2">Hadir: {hadirPeserta}</span>
+                  <span className="text-danger bg-danger bg-opacity-10 border border-danger border-opacity-25 px-2 py-1 rounded-pill">Absen: {absents.length}</span>
                 </div>
               </div>
               <button onClick={() => setGlobalCollapsed(!globalCollapsed)} className="btn btn-sm btn-light border rounded-pill px-3 fw-medium text-dark align-self-start align-self-md-center">
