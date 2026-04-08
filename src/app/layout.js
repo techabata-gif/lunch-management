@@ -8,15 +8,28 @@ export const metadata = {
     index: false,
     follow: false,
   },
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: 'default',
-    title: 'Lunch Order',
+  openGraph: {
+    title: 'Lunch Order - Abata Leaderss',
+    description: 'Yuk, isi pesanan makan siangmu sekarang sebelum batas cut-off!',
+    url: 'https://lunch.abata.sch.id', 
+    siteName: 'Lunch Abata',
+    images: [
+      {
+        // PENTING: Gunakan URL penuh (Absolute) dan arahkan ke icon.png yang lebih besar
+        url: 'https://lunch.abata.sch.id/icon.png', 
+        width: 800,
+        height: 600,
+        alt: 'Logo Abata Leaderss',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
   },
   icons: {
     icon: '/favicon.png', // Logo kecil di tab browser
     apple: '/icon.png',   // Logo yang muncul saat di-install di iPhone/iPad
   },
+  // appleWebApp digabung menjadi satu
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
