@@ -4,6 +4,15 @@ export const metadata = {
   title: 'LMA Abata',
   description: 'Lunch Management Application',
   manifest: '/manifest.json',
+  robots: {
+    index: false,
+    follow: false,
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Lunch Order',
+  },
   icons: {
     icon: '/favicon.png', // Logo kecil di tab browser
     apple: '/icon.png',   // Logo yang muncul saat di-install di iPhone/iPad
