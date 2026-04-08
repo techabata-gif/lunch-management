@@ -1,6 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
+  // --- TAMBAHKAN BARIS INI ---
+  metadataBase: new URL('https://lunch.abata.sch.id'),
+  
   title: 'LMA Abata',
   description: 'Lunch Management Application',
   manifest: '/manifest.json',
@@ -9,14 +12,13 @@ export const metadata = {
     follow: false,
   },
   openGraph: {
-    title: 'Lunch Order - Abata Leaderss',
+    title: 'LMA Abata - Lunch Management Application',
     description: 'Yuk, isi pesanan makan siangmu sekarang sebelum batas cut-off!',
     url: 'https://lunch.abata.sch.id', 
     siteName: 'Lunch Abata',
     images: [
       {
-        // PENTING: Gunakan URL penuh (Absolute) dan arahkan ke icon.png yang lebih besar
-        url: 'https://lunch.abata.sch.id/icon.png', 
+        url: '/icon.png', // Karena ada metadataBase, cukup tulis /icon.png
         width: 800,
         height: 600,
         alt: 'Logo Abata Leaderss',
@@ -26,10 +28,9 @@ export const metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/favicon.png', // Logo kecil di tab browser
-    apple: '/icon.png',   // Logo yang muncul saat di-install di iPhone/iPad
+    icon: '/favicon.png', 
+    apple: '/icon.png',   
   },
-  // appleWebApp digabung menjadi satu
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
@@ -51,16 +52,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        {/* Bootstrap CSS */}
-        <link 
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-        />
-        {/* Bootstrap Icons */}
-        <link 
-          rel="stylesheet" 
-          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" 
-        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
       </head>
       <body style={{ backgroundColor: '#f4f6fb', color: '#0f172a' }}>
         {children}
